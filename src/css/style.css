@@ -1,0 +1,56 @@
+:root {
+  --dark-spring-green: #02733Eff;
+  --xanthous: #F2C36Bff;
+  --ou-crimson: #880D1Eff;
+  --coral: #F2784Bff;
+  --cardinal: #BF213Eff;
+  --lg-font: 1.6rem;
+  --md-font: 1.4rem;
+  --sm-font: 1.2rem;
+  --quicksand-font: "Quicksand", serif;
+  --poppins-font: "Poppins", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--poppins-font);
+}
+
+/* Header and title */
+
+/* Header container */
+
+header .title {
+  width: 100%;
+  height: 66.7rem;
+  background-color: var(--cardinal);
+}
+
+/*  Header image container */
+
+header .title .title__heading {
+  width: 90%;
+  max-width: 90rem;
+  height: 50%;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  border-bottom-left-radius: 0.88rem;
+  border-bottom-right-radius: 0.88rem;
+  background-color: antiquewhite;
+}
+
+/* Header tittle */
+
+header .title .title__heading {
+  font-size: var(--lg-font);
+  color: var(--dark-spring-green);
+}
