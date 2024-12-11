@@ -215,6 +215,7 @@ main .menu .menu__cards {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 /* Cards 
