@@ -4,9 +4,9 @@
   --ou-crimson: #880D1Eff;
   --coral: #F2784Bff;
   --cardinal: #BF213Eff;
-  --lg-font: 1.6rem;
-  --md-font: 1.4rem;
-  --sm-font: 1.2rem;
+  --lg-font: 1.8rem;
+  --md-font: 1.6rem;
+  --sm-font: 1.4rem;
   --quicksand-font: "Quicksand", serif;
   --poppins-font: "Poppins", serif;
 }
@@ -19,7 +19,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: var(--poppins-font);
+  font-family: var(--quicksand-font);
 }
 
 /* Header and title */
